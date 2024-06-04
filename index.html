@@ -396,11 +396,50 @@
       <button
         type="button"
         class="text-white btn btn-dark border border-dark-subtle"
+        data-bs-toggle="modal"
+        data-bs-target="#Contattaci"
       >
         Contattaci
       </button>
       <p class="text-white p-3">2021 italia</p>
     </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="Contattaci"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Numeri Utili
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Consulta prima le domande frequenti</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Chiudi
+            </button>
+            <button type="button" class="btn btn-primary">Contattaci</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
